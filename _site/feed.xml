@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Coffee Club</title>
+    <description>Open Coffee Club is a bi-weekly meetup held all over the world where the startup and tech community comes together over a cup of coffee to talk about what&#39;s going on in the world.
+</description>
+    <link>http://www.opencoffeeclub.co/</link>
+    <atom:link href="http://www.opencoffeeclub.co/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 24 Jul 2015 21:43:15 -0500</pubDate>
+    <lastBuildDate>Fri, 24 Jul 2015 21:43:15 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+  </channel>
+</rss>
