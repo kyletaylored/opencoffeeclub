@@ -1,0 +1,24 @@
+# Site settings
+title: Open Coffee Club
+email: kyle@drawattention.co
+description: > # this means to ignore newlines until "baseurl:"
+  Open Coffee Club is a bi-weekly meetup held all over the world where the startup and tech community comes together over a cup of coffee to talk about what's going on in the world.
+keywords: "open coffee club, coffee, club, tech, startups, startup, coworking, entrepreneur, community"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.opencoffeeclub.co" # the base hostname & protocol for your site
+permalink: /:categories/:title
+
+# Social accounts
+twitter_username: opencoffeetees
+github_username:  
+facebook_username:  drawattentionco
+
+# Build settings
+markdown: kramdown
+
+# Analytics
+google_analytics: "UA-56560915-4"
+add_this:
+
+# Commenting
+disqus_shortname:
