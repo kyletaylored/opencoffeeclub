@@ -183,6 +183,21 @@ a.thumbnail.active {
 /* SECTION COLOR */
 .section-accent {
 	background-color: $color;
+	.btn-primary {
+		color: $brand-accent;
+		background-color: $brand-dark;
+		box-shadow: 0 5px darken($brand-dark, 25%);
+		&:hover, &.hover,
+		&:focus, &.focus, {
+			background-color: darken($brand-dark, 10%);
+		}
+		&:active, &.active {
+			&, &:hover, &.hover {
+				background-color: darken($brand-dark, 10%);
+				box-shadow: 0 2px darken($brand-dark, 25%);
+			}
+		}
+	}
 }
 /* BENEFITS */
 .section-accent .benefit {
