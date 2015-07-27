@@ -8,7 +8,6 @@
   bottom: 35%;
 }
 
-
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -25,7 +24,8 @@
 // Theme colors
 $brand-primary: #66CC99;
 $brand-secondary: #FF6633;
-$brand-accent: #DBCDA2;
+$brand-tertiary: #DBCDA2;
+$brand-accent: #FFF;
 $brand-dark: #2E4263;
 
 // Change preferred theme color here.

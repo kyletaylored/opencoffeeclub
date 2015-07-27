@@ -18,16 +18,38 @@ a.text-primary:hover {
 a.bg-primary:hover {
 	background-color: $color-darker;
 }
+
 .btn-primary {
-	background-color: rgba(red($color),green($color),blue($color),0.85);
-	border-color: $color;
+	color: $brand-accent;
+	background-color: $brand-primary;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 5px darken($brand-primary, 25%);
+	&:hover, &.hover,
+	&:focus, &.focus, {
+		background-color: darken($brand-primary, 10%);
+		transform: translateY(1px);
+	}
+	&:active, &.active {
+		&, &:hover, &.hover {
+			background-color: darken($brand-primary, 10%);
+			box-shadow: 0 2px darken($brand-primary, 25%);
+			transform: translateY(5px);
+		}
+	}
 }
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-primary:active,
-.btn-primary.active,
-.btn-primary:active:hover,
+
+// .btn-primary {
+// 	background-color: rgba($color,0.85);
+// 	border-color: $color;
+// }
+
+// .btn-primary:hover,
+// .btn-primary:focus,
+// .btn-primary.focus,
+// .btn-primary:active,
+// .btn-primary.active,
+// .btn-primary:active:hover,
 .open > .dropdown-toggle.btn-primary {
 	background-color: $color-dark;
 	border-color: $color;
