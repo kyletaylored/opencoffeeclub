@@ -203,11 +203,11 @@ iframe {
   text-align: center;
 }
 
+.countdown-container {
+  margin-bottom: 90px;
+}
 .countdown {
-  font-family: "Montserrat", sans-serif;
   text-align: center;
-  display: table;
-  table-layout: fixed;
   width: 100%;
 }
 
@@ -1748,7 +1748,7 @@ iframe {
  * ========================================
  */
 
-.design-section {
+ .design-section {
   padding-bottom: 0;
 }
 
@@ -1970,7 +1970,7 @@ iframe {
  * ========================================
  */
 
-.pricing-table {
+ .pricing-table {
   list-style: none;
   padding: 0;
   margin: 60px 0 0;
@@ -2745,5 +2745,58 @@ img.desaturate {
       border-right: 10px solid $color-dark;
     }
 
+  }
+}
+
+/* Clock */
+
+.clock-item .inner {
+  height: 0px;
+  padding-bottom: 100%;
+  position: relative; 
+  width: 100%;
+}
+
+.clock-canvas {
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 50%;
+  height: 0px;
+  padding-bottom: 100%;
+}
+
+.text {
+  color: #fff;  
+  font-size: 30px;
+  font-weight: bold;  
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  width: 100%;
+}
+
+.text .val {
+  font-size: 50px;
+}
+
+.text .type-time {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .clock-item {
+    margin-bottom: 30px;    
+  }
+}
+
+@media (max-width: 767px) {
+  .text .type-time {
+
+  }
+  .text .val {
+    font-size: 40px;
+    position: relative;
+    top: 15px;
   }
 }

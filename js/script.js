@@ -374,6 +374,22 @@
 		});
 
 		/* =======================================
+		 * Final Countdown
+		 * =======================================
+		 */
+		// Calculate time until.
+		var end = new Date("October 1, 2015, 04:59:59").getTime()/1000,
+				now = new Date().getTime()/1000;
+		console.log("end: "+ end);
+		console.log("now: "+ now);
+
+		$('.countdown').final_countdown({
+			'start': 1362139200,
+			'end': end,
+			'now': now,
+		});
+
+		/* =======================================
 		 * Preloader
 		 * =======================================
 		 */
